@@ -8,6 +8,17 @@
   <title>Document</title>
 </head>
 
-<body></body>
+<body>
+  <div id="element-0">Element 0</div>
+  <div id="element-1">Element 1</div>
+  <div id="element-2">Element 2</div>
+
+
+  <script>
+    for (let i = 0; i < 4; i++) {
+      const elem = document.querySelector(`element-${i}`)
+    }
+  </script>
+</body>
 
 </html>
